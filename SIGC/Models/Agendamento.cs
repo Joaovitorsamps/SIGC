@@ -5,6 +5,7 @@ namespace SIGC.Models
     [Table("Agendamento")]
     public class Agendamento
     {
+        [Required]
         [Display(Name = "AgendamentoId")]
         [Column("Id")]
         public int Id { get; set; }

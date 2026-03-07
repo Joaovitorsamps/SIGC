@@ -5,6 +5,7 @@ namespace SIGC.Models
 {
     public class Colaboradores
     {
+        [Required]
         [Display(Name = "Matricula")]
         [Column("Matricula")]
         public int Matricula { get; set; }

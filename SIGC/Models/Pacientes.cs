@@ -5,6 +5,7 @@ namespace SIGC.Models
     [Table("Pacientes")]
     public class Pacientes
     {
+        [Required]
         [Display(Name = "PacienteCPF")]
         [Column("CPF")]
         public int CPF { get; set; }
