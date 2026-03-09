@@ -6,6 +6,8 @@ namespace SIGC.Models
     [Table("Sessao")]
     public class Sessao
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Display(Name = "ID_Sessao")]
         [Column("id")]

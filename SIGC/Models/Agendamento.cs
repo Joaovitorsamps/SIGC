@@ -5,6 +5,8 @@ namespace SIGC.Models
     [Table("Agendamento")]
     public class Agendamento
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Display(Name = "AgendamentoId")]
         [Column("Id")]

@@ -6,6 +6,8 @@ namespace SIGC.Models
     [Table("Preco_Hora")]
     public class Preco_Hora
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Display(Name = "ID_Preco_Hora")]
         [Column("id")]

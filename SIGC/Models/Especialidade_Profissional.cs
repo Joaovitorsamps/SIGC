@@ -6,6 +6,8 @@ namespace SIGC.Models
     [Table("Especialidade_Profissional")]
     public class Especialidade_Profissional
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Display(Name = "id")]
         [Column("id")]

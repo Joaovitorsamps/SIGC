@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace SIGC.Models
 {
     [Table("Pacientes")]
     public class Pacientes
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Display(Name = "PacienteCPF")]
         [Column("CPF")]
@@ -13,6 +16,10 @@ namespace SIGC.Models
         [Display(Name = "PacienteNome")]
         [Column("Nome")]
         public string Nome { get; set; }
+
+        [Display(Name = "PacienteDDD")]
+        [Column("DDD")]
+        public string DDD { get; set; }
 
         [Display(Name = "PacienteTelefone")]
         [Column("Telefone")]
