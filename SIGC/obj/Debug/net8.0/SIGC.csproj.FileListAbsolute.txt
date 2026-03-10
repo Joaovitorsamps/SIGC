@@ -247,3 +247,7 @@ C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\refint\SIGC.dll
 C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\SIGC.pdb
 C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\SIGC.genruntimeconfig.cache
 C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\ref\SIGC.dll
+C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\SIGC.MvcApplicationPartsAssemblyInfo.cs

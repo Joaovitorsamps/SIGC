@@ -1,23 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Supabase.Postgrest.Models;
+using Supabase.Postgrest.Attributes;
 
 namespace SIGC.Models
 {
-    public class Colaboradores
+    public class Colaboradores : BaseModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Required]
-        [Display(Name = "Matricula")]
-        [Column("Matricula")]
+        [PrimaryKey("Matricula")]
         public int Matricula { get; set; }
 
-        [Display(Name = "Nome_Colaborador")]
         [Column("Nome_Colaborador")]
         public string Nome_Colaborador { get; set; }
 
-        [Display(Name = "Funcao")]
         [Column("Funcao")]
         public string funcao { get; set; }
     }

@@ -1,23 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Supabase.Postgrest.Models;
+using Supabase.Postgrest.Attributes;
 
 namespace SIGC.Models
 {
     [Table("Preco_Hora")]
-    public class Preco_Hora
+    public class Preco_Hora : BaseModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Required]
-        [Display(Name = "ID_Preco_Hora")]
-        [Column("id")]
+        [PrimaryKey("id")]
         public int id { get; set; }
 
-        [Display(Name = "Meia_Hora")]
         [Column("Meia_Hora")]
         public string Meia_Hora { get; set; }
 
-        [Display(Name = "ID_Especialidade")]
         [Column("ID_Especialidade")]
         public string ID_Especialidade { get; set; }
     }

@@ -1,35 +1,26 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Supabase.Postgrest.Models;
+using Supabase.Postgrest.Attributes;
+
 namespace SIGC.Models
 {
     [Table("Pacientes")]
-    public class Pacientes
+    public class Pacientes : BaseModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Required]
-        [Display(Name = "PacienteCPF")]
-        [Column("CPF")]
-        public int CPF { get; set; }
+        [PrimaryKey("CPF")]
+        public string CPF { get; set; }
 
-        [Display(Name = "PacienteNome")]
         [Column("Nome")]
         public string Nome { get; set; }
 
-        [Display(Name = "PacienteDDD")]
         [Column("DDD")]
         public string DDD { get; set; }
 
-        [Display(Name = "PacienteTelefone")]
         [Column("Telefone")]
         public string Telefone { get; set; }
 
-        [Display(Name = "PacienteCEP")]
         [Column("CEP")]
         public string CEP { get; set; }
 
-        [Display(Name = "PacienteRua")]
         [Column("Rua")]
         public string Rua { get; set; }
     }

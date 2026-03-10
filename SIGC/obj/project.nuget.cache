@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ow+t31FTBco=",
+  "dgSpecHash": "qIOywJ5dwUU=",
   "success": true,
   "projectFilePath": "C:\\Users\\4163819\\source\\repos\\SIGC\\SIGC\\SIGC.csproj",
   "expectedPackageFiles": [
@@ -95,6 +95,7 @@
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.1\\microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.0\\microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.net.stringtools\\17.11.48\\microsoft.net.stringtools.17.11.48.nupkg.sha512",
+    "C:\\Users\\4163819\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\8.0.23\\microsoft.visualstudio.web.codegeneration.8.0.23.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\8.0.23\\microsoft.visualstudio.web.codegeneration.core.8.0.23.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\8.0.23\\microsoft.visualstudio.web.codegeneration.design.8.0.23.nupkg.sha512",
@@ -128,6 +129,8 @@
     "C:\\Users\\4163819\\.nuget\\packages\\supabase.postgrest\\4.0.3\\supabase.postgrest.4.0.3.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\supabase.realtime\\7.0.2\\supabase.realtime.7.0.2.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\supabase.storage\\2.0.2\\supabase.storage.2.0.2.nupkg.sha512",
+    "C:\\Users\\4163819\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.4\\swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
+    "C:\\Users\\4163819\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.4\\swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
     "C:\\Users\\4163819\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",

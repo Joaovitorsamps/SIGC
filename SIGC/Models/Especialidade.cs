@@ -1,19 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Supabase.Postgrest.Models;
+using Supabase.Postgrest.Attributes;
 
 namespace SIGC.Models
 {
     [Table("Especialidade")]
-    public class Especialidade
+    public class Especialidade : BaseModel
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Required]
-        [Display(Name = "Especialidade_ID")]
-        [Column("id")]
+        [PrimaryKey("id")]
         public int id { get; set; }
 
-        [Display(Name = "Nome_Especialidade")]
         [Column("Especialidade")]
         public string Especialidade_Nome { get; set; }
     }
