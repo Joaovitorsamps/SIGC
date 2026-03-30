@@ -55,6 +55,10 @@
       "CreatePacientesRequest": {
         "type": "object",
         "properties": {
+          "cpF_Paciente": {
+            "type": "string",
+            "nullable": true
+          },
           "nome": {
             "type": "string",
             "nullable": true

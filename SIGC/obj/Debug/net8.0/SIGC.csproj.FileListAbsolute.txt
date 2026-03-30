@@ -251,3 +251,4 @@ C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\4163819\source\repos\SIGC\SIGC\obj\Debug\net8.0\SIGC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\4163819\source\repos\SIGC\SIGC\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

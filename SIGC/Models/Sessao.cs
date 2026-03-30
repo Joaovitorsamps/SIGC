@@ -4,7 +4,7 @@ using Supabase.Postgrest.Attributes;
 namespace SIGC.Models
 {
     [Table("Sessao")]
-    public class Sessao
+    public class Sessao : BaseModel
     {
         [PrimaryKey("id")]
         public int id { get; set; }

@@ -6,8 +6,9 @@ namespace SIGC.Models
     [Table("Pacientes")]
     public class Pacientes : BaseModel
     {
-        [PrimaryKey("CPF")]
-        public string CPF { get; set; }
+        [PrimaryKey("CPF_Paciente")]
+        [Column("CPF_Paciente")]
+        public string CPF_Paciente { get; set; }
 
         [Column("Nome")]
         public string Nome { get; set; }

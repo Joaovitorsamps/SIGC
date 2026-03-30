@@ -2,7 +2,7 @@
 {
     public class PacientesResponse
     {
-        public string CPF { get; set; }
+        public string CPF_Paciente { get; set; }
         public string Nome { get; set; }
         public string DDD { get; set; }
         public string Telefone { get; set; }

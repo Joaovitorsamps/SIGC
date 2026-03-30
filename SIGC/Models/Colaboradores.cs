@@ -3,6 +3,7 @@ using Supabase.Postgrest.Attributes;
 
 namespace SIGC.Models
 {
+    [Table("Colaboradores")]
     public class Colaboradores : BaseModel
     {
         [PrimaryKey("Matricula")]
